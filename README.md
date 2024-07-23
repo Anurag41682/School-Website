@@ -1,1 +1,1 @@
-# School Website using React
+# School Website
