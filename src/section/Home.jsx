@@ -15,8 +15,8 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Home = () => {
   return (
-    <section>
-      <div className="flex gap-4 m-10">
+    <section className="px-20 py-10">
+      <div className="flex gap-4">
         <img className="w-20" src={Logo} />
         <p>
           <strong>Springdale Public School</strong>, established in 1995, is a
@@ -27,7 +27,7 @@ const Home = () => {
           for students from kindergarten through twelfth grade.
         </p>
       </div>
-      <div className="flex m-10 justify-center">
+      <div className="flex  justify-center mt-10">
         <Carousel className="w-1/2 h-1/2 ">
           <CarouselContent className="flex">
             <CarouselItem>
