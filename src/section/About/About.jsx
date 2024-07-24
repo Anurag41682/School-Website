@@ -3,7 +3,7 @@ import data from "./data";
 import AboutCard from "@/components/AboutCard";
 const About = () => {
   return (
-    <section className="px-20 my-20">
+    <section className="px-20 my-20 text-slate-100">
       {data.map((item, index) => {
         return (
           <AboutCard

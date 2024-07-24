@@ -17,7 +17,7 @@ const data = [{ image: Image1 }, { image: Image2 }, { image: Image3 }];
 
 const Home = () => {
   return (
-    <section className="px-20 my-20">
+    <section className="text-slate-100 px-20 my-20">
       <div className="flex gap-4">
         <img className="w-20" src={Logo} />
         <div>
@@ -28,9 +28,9 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="flex  justify-center mt-10">
+      <div className="flex text-black  justify-center mt-10">
         <Carousel className="w-1/2 h-1/2 ">
-          <CarouselContent className="flex">
+          <CarouselContent className="flex ">
             {data.map((item, index) => {
               return (
                 <CarouselItem key={index}>
