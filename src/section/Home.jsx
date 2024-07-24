@@ -17,7 +17,7 @@ const data = [{ image: Image1 }, { image: Image2 }, { image: Image3 }];
 
 const Home = () => {
   return (
-    <section className="px-20 mt-8 mb-20">
+    <section className="px-20 my-20">
       <div className="flex gap-4">
         <img className="w-20" src={Logo} />
         <div>
