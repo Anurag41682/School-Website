@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./section/Home";
 import About from "./section/About/About";
 import Academics from "./section/Academics/Academics";
@@ -11,10 +12,19 @@ import Students from "./section/Students";
 import Navbar from "./section/Navbar";
 import Footer from "./section/Footer";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
