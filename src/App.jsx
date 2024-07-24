@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./section/Home";
 import About from "./section/About/About";
 import Academics from "./section/Academics/Academics";
-import Admissions from "./section/Admissions";
+import Admissions from "./section/Admissions/Admissions";
 import Contact from "./section/Contact";
 import Faculty from "./section/Faculty";
 import Gallery from "./section/Gallery";
@@ -12,7 +12,7 @@ import Navbar from "./section/Navbar";
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -27,7 +27,7 @@ function App() {
         </Routes>
         <footer>HI from footer</footer>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
