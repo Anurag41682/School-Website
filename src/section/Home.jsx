@@ -18,14 +18,13 @@ const Home = () => {
     <section className="px-20 py-10">
       <div className="flex gap-4">
         <img className="w-20" src={Logo} />
-        <p>
-          <strong>Springdale Public School</strong>, established in 1995, is a
-          premier educational institution dedicated to fostering academic
-          excellence, character development, and lifelong learning. Nestled in
-          the heart of a vibrant community, Springdale Public School is
-          committed to providing a safe, inclusive, and nurturing environment
-          for students from kindergarten through twelfth grade.
-        </p>
+        <div>
+          <strong className="text-3xl">Springdale Public School</strong>,
+          <p className="leading-10 tracking-wider">
+            established in 1995, is a premier educational institution dedicated
+            to fostering academic excellence.
+          </p>
+        </div>
       </div>
       <div className="flex  justify-center mt-10">
         <Carousel className="w-1/2 h-1/2 ">
