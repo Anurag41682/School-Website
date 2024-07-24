@@ -1,4 +1,9 @@
-const data = [
+import Image1 from "../../assets/math.jpg";
+import Image2 from "../../assets/english.jpeg";
+import Image3 from "../../assets/science.webp";
+import Image4 from "../../assets/socialStudies.jpg";
+import Image5 from "../../assets/arts.jpg";
+export const dataCurriculum = [
   {
     h2: "Primary Education (Grades 1-5)",
     s1: "Subjects: ",
@@ -22,4 +27,10 @@ const data = [
   },
 ];
 
-export default data;
+export const dataSubject = [
+  { name: "Mathematics", image: Image1 },
+  { name: "Engish", image: Image2 },
+  { name: "Science", image: Image3 },
+  { name: "Social Studies", image: Image4 },
+  { name: "Arts", image: Image5 },
+];

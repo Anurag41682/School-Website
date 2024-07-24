@@ -8,10 +8,10 @@ const Navbar = () => {
       <Link to={"/about"}>About</Link>
       <Link to={"/academics"}>Academics</Link>
       <Link to={"/admissions"}>Admissions</Link>
-      <Link to={"/contact"}>Contact</Link>
       <Link to={"/faculty"}>Faculty</Link>
       <Link to={"/gallery"}>Gallery</Link>
-      <Link>Students</Link>
+      <Link to={"/students"}>Students</Link>
+      <Link to={"/contact"}>Contact</Link>
     </nav>
   );
 };
