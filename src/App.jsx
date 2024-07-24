@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./section/Home";
 import About from "./section/About/About";
-import Academics from "./section/Academics";
+import Academics from "./section/Academics/Academics";
 import Admissions from "./section/Admissions";
 import Contact from "./section/Contact";
 import Faculty from "./section/Faculty";
