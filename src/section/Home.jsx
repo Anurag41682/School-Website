@@ -17,12 +17,15 @@ const data = [{ image: Image1 }, { image: Image2 }, { image: Image3 }];
 
 const Home = () => {
   return (
-    <section className="text-slate-100 px-20 my-20">
-      <div className="flex gap-4">
+    <section className="text-slate-100 px-20 my-20 max-md:px-5">
+      <div className="flex gap-4 max-sm:flex-col">
         <img className="w-20" src={Logo} />
         <div>
-          <strong className="text-3xl">Springdale Public School</strong>,
-          <p className="leading-6 tracking-wider">
+          <strong className="text-3xl max-md:text-2xl max-sm:text-sm">
+            Springdale Public School
+          </strong>
+          ,
+          <p className="leading-6 tracking-wider  max-md:text-sm max-md:leading-5 max-sm:text-xs ">
             established in 1995, is a premier educational institution dedicated
             to fostering academic excellence.
           </p>
