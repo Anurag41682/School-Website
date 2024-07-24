@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex gap-4 p-4 bg-cyan-950/70 backdrop-blur justify-center fixed top-0 right-0 left-0 border-b border-slate-400 shadow-2xl ">
+    <nav className="flex z-10 gap-4 p-4 bg-cyan-950/70 backdrop-blur justify-center fixed top-0 right-0 left-0 border-b border-slate-400 shadow-2xl ">
       <Link className="text-slate-100 hover:text-blue-300" to={"/"}>
         Home
       </Link>

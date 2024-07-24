@@ -9,6 +9,7 @@ import Faculty from "./section/Faculty";
 import Gallery from "./section/Gallery";
 import Students from "./section/Students";
 import Navbar from "./section/Navbar";
+import Footer from "./section/Footer";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/students" element={<Students />} />
         </Routes>
-        <footer>HI from footer</footer>
+        <Footer />
       </BrowserRouter>
     </>
   );
