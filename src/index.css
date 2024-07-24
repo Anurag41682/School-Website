@@ -66,6 +66,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    font-family: "JetBrains Mono", monospace;
+  }
 }
 
 
