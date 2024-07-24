@@ -12,7 +12,7 @@ import Navbar from "./section/Navbar";
 
 function App() {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -25,8 +25,9 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/students" element={<Students />} />
         </Routes>
+        <footer>HI from footer</footer>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

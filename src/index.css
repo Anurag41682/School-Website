@@ -71,7 +71,13 @@
   }
 }
 
-
-body{
-  background-color: rgb(224, 224, 224);
+body {
+  background: rgb(0, 19, 43);
+  background: linear-gradient(
+      35deg,
+      rgba(0, 19, 43, 1) 9%,
+      rgba(0, 97, 130, 1) 59%,
+      rgba(0, 57, 62, 1) 100%
+    )
+    fixed;
 }
