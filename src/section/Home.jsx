@@ -13,7 +13,7 @@ import {
 
 import { Card, CardContent } from "@/components/ui/card";
 
-const data = [{ image: Image1, image: Image2, image: Image3 }];
+const data = [{ image: Image1 }, { image: Image2 }, { image: Image3 }];
 
 const Home = () => {
   return (
@@ -31,9 +31,9 @@ const Home = () => {
       <div className="flex  justify-center mt-10">
         <Carousel className="w-1/2 h-1/2 ">
           <CarouselContent className="flex">
-            {data.map((item) => {
+            {data.map((item, index) => {
               return (
-                <CarouselItem key={item.image}>
+                <CarouselItem key={index}>
                   <Card className="w-full h-full ">
                     <CardContent className="p-6">
                       <img src={item.image} alt={item.image} />
