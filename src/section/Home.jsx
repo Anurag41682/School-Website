@@ -22,7 +22,7 @@ const Home = () => {
         <img className="w-20" src={Logo} />
         <div>
           <strong className="text-3xl">Springdale Public School</strong>,
-          <p className="leading-10 tracking-wider">
+          <p className="leading-6 tracking-wider">
             established in 1995, is a premier educational institution dedicated
             to fostering academic excellence.
           </p>
