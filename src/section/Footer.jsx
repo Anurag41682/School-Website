@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "../assets/logo.png";
+import Icon from "../assets/logo.jpg";
 const Footer = () => {
   return (
     <footer className="text-slate-50 bg-cyan-950/70 px-20 py-10 max-md:px-5">
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="pt-10 pb-0 flex justify-center items-center flex-col">
-        <img className="w-40 " src={Icon} alt="logo" />
+        <img className="w-32 rounded-full mb-5 " src={Icon} alt="logo" />
         <p className="max-md:text-xs">No Copyright</p>
       </div>
     </footer>
