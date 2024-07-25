@@ -7,6 +7,9 @@
 # to clone the repository locally
 git clone https://github.com/Anurag41682/School-Website.git
 
+# to change the directory to the cloned folder
+cd School-Website
+
 # to install the dependency
 npm install
 
