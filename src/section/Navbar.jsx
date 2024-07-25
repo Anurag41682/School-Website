@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden fixed top-14 left-0 right-0 bg-cyan-950/90 p-4">
+        <div className="md:hidden fixed top-14 left-0 right-0 bg-cyan-950/95  p-4">
           <Link
             className="block text-slate-100 hover:text-blue-300 "
             to="/"
