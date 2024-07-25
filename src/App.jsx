@@ -5,7 +5,7 @@ import Home from "./section/Home";
 import About from "./section/About/About";
 import Academics from "./section/Academics/Academics";
 import Admissions from "./section/Admissions/Admissions";
-import Faculty from "./section/Faculty";
+import Faculty from "./section/Faculty/Faculty";
 import Gallery from "./section/Gallery";
 import Students from "./section/Students";
 import Navbar from "./section/Navbar/Navbar";
