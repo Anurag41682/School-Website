@@ -5,11 +5,10 @@ import Home from "./section/Home";
 import About from "./section/About/About";
 import Academics from "./section/Academics/Academics";
 import Admissions from "./section/Admissions/Admissions";
-import Contact from "./section/Contact";
 import Faculty from "./section/Faculty";
 import Gallery from "./section/Gallery";
 import Students from "./section/Students";
-import Navbar from "./section/Navbar";
+import Navbar from "./section/Navbar/Navbar";
 import Footer from "./section/Footer";
 
 function ScrollToTop() {
@@ -31,7 +30,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/academics" element={<Academics />} />
           <Route path="/admissions" element={<Admissions />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/students" element={<Students />} />
