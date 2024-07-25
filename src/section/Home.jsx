@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.jpg";
 import Image1 from "../assets/homeCarousel-1.jpg";
 import Image2 from "../assets/homeCarousel-2.jpg";
 import Image3 from "../assets/homeCarousel-3.jpg";
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <section className="text-slate-100 px-20 my-20 max-md:px-5">
       <div className="flex gap-4 max-sm:flex-col">
-        <img className="w-20" src={Logo} />
+        <img className="w-20 rounded-full" src={Logo} />
         <div>
           <strong className="text-3xl max-md:text-2xl max-sm:text-sm">
             Springdale Public School
