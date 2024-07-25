@@ -1,25 +1,31 @@
 import Image1 from "../../assets/historyAbout.avif";
 import Image2 from "../../assets/visionAbout.jpeg";
-import Image3 from "../../assets/extraciricularAbout.jpg";
-
+import Image3 from "../../assets/principal.jpg";
+import Image4 from "../../assets/infra.jpeg";
 const data = [
   {
     title: "History ",
     content:
-      " Springdale Public School, established in 1995, is a premier educational institution dedicated to fostering academic excellence, character development, and lifelong learning. Nestled in the heart of a vibrant community, Springdale Public School is committed to providing a safe, inclusive, and nurturing environment for students from kindergarten through twelfth grade.",
+      " Founded in 1985, Springdale Public School has been dedicated to providing quality education and holistic development to students.",
     image: Image1,
   },
   {
     title: "Vision and Mission ",
     content:
-      "To cultivate a dynamic and innovative learning environment where every student is empowered to achieve their fullest potential and become a responsible, global citizen. ",
+      "To create a learning environment that fosters academic excellence, critical thinking, and ethical values.To empower students with the knowledge, skills, and values needed to thrive in a dynamic world ",
     image: Image2,
   },
   {
-    title: "Extracurricular Activities",
+    title: "Principal's Message",
     content:
-      "Recognizing the importance of a well-rounded education, Springdale Public School provides a variety of extracurricular activities, including : Sports teams and athletic programs Music, drama, and visual arts clubs STEM (Science, Technology, Engineering, and Mathematics) clubs and competitions Student government and leadership programs",
+      "At Springdale, we believe in nurturing the potential of every student and guiding them towards a successful future.",
     image: Image3,
+  },
+  {
+    title: "Infrasturcture and facilities",
+    content:
+      "State-of-the-art science and computer labs, Spacious and well-equipped classrooms, Library with a vast collection of books and digital resources, Sports facilities including a playground, gymnasium, and swimming pool",
+    image: Image4,
   },
 ];
 

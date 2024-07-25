@@ -24,10 +24,9 @@ const Home = () => {
           <strong className="text-3xl max-md:text-2xl max-sm:text-sm">
             Springdale Public School
           </strong>
-          ,
           <p className="leading-6 tracking-wider  max-md:text-sm max-md:leading-5 max-sm:text-xs ">
-            established in 1995, is a premier educational institution dedicated
-            to fostering academic excellence.
+            Welcome to Springdale Public School, where we nurture young minds
+            for a brighter future.
           </p>
         </div>
       </div>
