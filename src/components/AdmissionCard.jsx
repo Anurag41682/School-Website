@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 const AdmissionCard = ({ item }) => {
   return (
-    <Card className="w-1/3 ">
+    <Card className="w-1/3 max-md:w-3/4 ">
       <CardContent>
         <h1 className="text-xl py-4 text-center underline">{item.standard}</h1>
         <p className="text-sm tracking-tighter leading-5">
