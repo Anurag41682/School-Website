@@ -20,7 +20,11 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 justify-center w-full">
         {data.map((item) => (
           <NavLink
-            className="text-slate-100 hover:text-blue-300"
+            className={({ isActive }) =>
+              `block text-slate-100 hover:text-blue-300 ${
+                isActive ? "border-b-2 border-blue-300 text-blue-300" : ""
+              }`
+            }
             to={item.route}
           >
             {item.name}
@@ -32,7 +36,11 @@ const Navbar = () => {
         <div className="md:hidden fixed top-14 left-0 right-0 bg-cyan-950/95  p-4">
           {data.map((item) => (
             <NavLink
-              className="block text-slate-100 hover:text-blue-300 "
+              className={({ isActive }) =>
+                `block text-slate-100 hover:text-blue-300 ${
+                  isActive ? "text-blue-300" : ""
+                }`
+              }
               to={item.route}
               onClick={toggleMenu}
             >
