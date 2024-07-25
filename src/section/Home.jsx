@@ -38,7 +38,7 @@ const Home = () => {
               return (
                 <CarouselItem key={index}>
                   <Card className="w-full h-full ">
-                    <CardContent className="p-6">
+                    <CardContent className="p-6 max-md:p-2 max-sm:p-1">
                       <img src={item.image} alt={item.image} />
                     </CardContent>
                   </Card>
