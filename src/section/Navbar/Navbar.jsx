@@ -21,9 +21,11 @@ const Navbar = () => {
         {data.map((item) => (
           <NavLink
             className={({ isActive }) =>
-              `block text-slate-100 hover:text-blue-300 ${
-                isActive ? "border-b-2 border-blue-300 text-blue-300" : ""
-              }`
+              `block ${
+                isActive
+                  ? "text-blue-300 border-b-2 border-blue-300"
+                  : "text-slate-100"
+              } hover:text-blue-300`
             }
             to={item.route}
           >
@@ -37,9 +39,9 @@ const Navbar = () => {
           {data.map((item) => (
             <NavLink
               className={({ isActive }) =>
-                `block text-slate-100 hover:text-blue-300 ${
-                  isActive ? "text-blue-300" : ""
-                }`
+                `block ${
+                  isActive ? "text-blue-300 " : "text-slate-100"
+                } hover:text-blue-300`
               }
               to={item.route}
               onClick={toggleMenu}
