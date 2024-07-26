@@ -11,8 +11,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import { Card, CardContent } from "@/components/ui/card";
-
 const data = [{ image: Image1 }, { image: Image2 }, { image: Image3 }];
 
 const Home = () => {
@@ -30,17 +28,17 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="flex text-black  justify-center mt-10">
-        <Carousel className="w-1/2 h-1/2 ">
-          <CarouselContent className="flex ">
+      <div className="flex text-black justify-center mt-10">
+        <Carousel>
+          <CarouselContent className="w-[70vw] h-[70vh] max-sm:w-[50vw] max-sm:h-[50vh] ">
             {data.map((item, index) => {
               return (
                 <CarouselItem key={index}>
-                  <Card className="w-full h-full ">
-                    <CardContent className="p-6 max-md:p-2 max-sm:p-1">
-                      <img src={item.image} alt={item.image} />
-                    </CardContent>
-                  </Card>
+                  <img
+                    className="w-full h-full object-cover"
+                    src={item.image}
+                    alt={item.image}
+                  />
                 </CarouselItem>
               );
             })}
