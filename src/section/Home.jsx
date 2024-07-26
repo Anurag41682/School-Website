@@ -30,7 +30,7 @@ const Home = () => {
       </div>
       <div className="flex text-black justify-center mt-10">
         <Carousel>
-          <CarouselContent className="w-[70vw] h-[70vh] max-sm:w-[50vw] max-sm:h-[50vh] ">
+          <CarouselContent className="w-[70vw] h-[70vh] max-sm:h-[50vh] ">
             {data.map((item, index) => {
               return (
                 <CarouselItem key={index}>
