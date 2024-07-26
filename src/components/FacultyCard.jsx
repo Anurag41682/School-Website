@@ -4,9 +4,9 @@ import React from "react";
 
 const FacultyCard = ({ item }) => {
   return (
-    <Card>
-      <CardContent className="p-3 ">
-        <div className="max-md:text-sm">
+    <Card className=" w-[70vw] h-[70vh] overflow-hidden max-sm:w-[50vw] max-sm:h-[50vh] ">
+      <CardContent className="p-3">
+        <div className="max-md:text-sm mb-3 flex flex-col flex-wrap">
           <p>
             <strong>Name: </strong>
             {item.Name}
@@ -24,7 +24,7 @@ const FacultyCard = ({ item }) => {
             {item.Experience}
           </p>
         </div>
-        <img src={item.Image} alt={item.Name} />
+        <img src={item.Image} alt={item.Name} loading="lazy" />
       </CardContent>
     </Card>
   );
