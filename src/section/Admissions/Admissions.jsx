@@ -9,7 +9,7 @@ const Admissions = () => {
           return <AdmissionCard key={index} item={item} />;
         })}
       </div>
-      <p className="mt-10 text-slate-100">
+      <p className="mt-10 text-slate-100 text-md max-sm:text-sm">
         <strong>Important Dates: </strong>
         <li>Admission Form Availability: March 1st</li>
         <li>Last Date for Submission: March 31st</li>
