@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 const AdmissionCard = ({ item }) => {
   return (
-    <Card className="w-1/3 max-md:w-3/4 ">
-      <CardContent>
+    <Card className="w-3/4 h-[75vh] overflow-hidden ">
+      <CardContent className="w-full h-full">
         <h1 className="text-xl py-4 text-center underline">{item.standard}</h1>
         <p className="text-sm tracking-tighter leading-5">
           <strong>Eligibility:</strong> {item.eligibility}
@@ -13,7 +13,7 @@ const AdmissionCard = ({ item }) => {
         <p className="text-sm tracking-tighter leading-5 my-2">
           <strong>Fee:</strong> {item.fee}
         </p>
-        <img src={item.image} alt={item.fee} />
+        <img className="box-cover" src={item.image} alt={item.fee} />
       </CardContent>
     </Card>
   );
