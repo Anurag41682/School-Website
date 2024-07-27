@@ -4,8 +4,8 @@ const data = [
   { name: "Academics", route: "/academics" },
   { name: "Admissions", route: "/admissions" },
   { name: "Faculty", route: "/faculty" },
-  { name: "Gallery", route: "/gallery" },
-  { name: "Students", route: "/students" },
+  // { name: "Gallery", route: "/gallery" },
+  // { name: "Students", route: "/students" },
 ];
 
 export default data;
